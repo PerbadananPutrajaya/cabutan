@@ -2,38 +2,46 @@
 
 <head>
 	<title>Zumba LAMPU 2016</title>
-	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css">
+	<!-- Custom styles for this template -->
+	<link href="cover.css" rel="stylesheet">
 </head>
 
 <body onload="stopRoll()">
-	<div class="container">
-		&nbsp;
-		<div class="span12">
-			<div class="jumbotron">
-				<h1>Cabutan Bertuah Zumba LAMPU 2016</h1>
-
-				<div id="myProgressbar" class="progress">
-					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
-						style="width: 100%">
-						<span class="sr-only">100% Complete</span>
+	<div class="site-wrapper">
+		<div class="site-wrapper-inner">
+			<div class="cover-container">
+				<div class="masthead clearfix">
+					<div class="inner">
+						<img class="pull-left" src="http://lampu.gov.my/wp-content/uploads/2016/11/logo.png" alt="LAMPU 2016">
+						<nav>
+							<ul class="nav masthead-nav">
+								<li class="active"><a href="#">Home</a></li>
+								<li><a href="https://lampu.gov.my">LAMPU</a></li>
+								<li><a href="https://lampu.gov.my/contact-us/">Contact</a></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
-				<form>
-					<div class="form-group">
-						<span id="nama"><h2 class="alert alert-info" role="alert">Siapakah peserta bertuah yang menghadiri Zumba LAMPU 2016 pada hari ini?</h2></span>
-
+				<div class="inner cover">
+					<h1 class="cover-heading neon">ZUMBA LAMPU GLOW IN THE DARK</h1>
+					<p class="lead"><span id="greeting">Peserta bertuah pada hari ini?</span></p>
+					<p class="lead neon"><span id="nama"></span></p>
+					<p class="lead">
+						<a href="index.html" class="btn btn-lg btn-default">Carian Semula</a>
+					</p>
+				</div>
+				<div class="mastfoot">
+					<div class="inner">
+						<p class="neon"><strong>ZUMBA LAMPU GLOW IN THE DARK</strong> by <strong>Slimshaperz Putrajaya</strong></p>
 					</div>
-					<div class="pager">
-						<a class="btn btn-danger btn-lg" href="index.html" role="button"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> CARIAN SEMULA</a>
-					</div>
-				</form>
+				</div>
 			</div>
 		</div>
 	</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<script src="progressbar.js"></script>
 	<script src="roll.js"></script>
 </body>
 

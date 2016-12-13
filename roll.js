@@ -237,7 +237,8 @@ var myArray = ["ABD RAHIM BIN ABD RAHMAN",
 "ZURAIDAH BINTI ISMAIL"];
 
 function stopRoll() {
-    var rand = myArray[Math.floor(Math.random() * myArray.length)]; nama.innerHTML = '<h2 class="alert alert-success" role="alert">Tahniah kepada <strong><span class="text-primary">' + rand + '</span></strong>! Anda adalah peserta bertuah yang terpilih pada hari ini.</h2>';
+    greeting.innerHTML = 'Tahniah Kepada Peserta Bernama'
+    var rand = myArray[Math.floor(Math.random() * myArray.length)]; nama.innerHTML = '<strong>' + rand + '</strong> !!!';
 }
 function resetNama() {
     nama.innerHTML = '<h2 class="alert alert-info" role="alert">Siapakah peserta bertuah yang menghadiri Zumba LAMPU 2016 pada hari ini?</h2>';
