@@ -1,5 +1,5 @@
 var myArray = ["Afina Razla Binti Afifuddin - Tiket # 4",
-"Aida Farisa - Tiket # 227",",
+"Aida Farisa - Tiket # 227",
 "Aila Haryati Harun Harashaid  - Tiket # 102",
 "Aimi Syazwani Binti Zainuddin - Tiket # 238",
 "Ainol Mardhiah Binti Mohd Khalid - Tiket # 186",
