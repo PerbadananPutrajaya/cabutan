@@ -163,7 +163,6 @@ var myArray = ["Noraziah Binti M Roshid - Tiket # 1",
 "Tanty Darwinna Abdull Rahman - Tiket # 239",
 "Farziliyatul Ashmar Izahar - Tiket # 241",
 "Norain Shakira Binti Mohd Salleh - Tiket # 243",
-"Nur Adibah Nabilah Binti Abu Bakar - Tiket # 244",
 "Mimi Suzana Bt Mohd Rashid - Tiket # 245",
 "Nor Khairunnisa Bt Johari - Tiket # 246",
 "Nor Aziati Jaafar - Tiket # 248"];
